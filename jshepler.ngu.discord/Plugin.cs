@@ -116,6 +116,11 @@ namespace jshepler.ngu.discord
                 Assets = { LargeImage = "ngu_logo", LargeText = "NGU IDLE" }
             };
 
+            activity.Timestamps.Start = 0;
+            activity.Timestamps.End = 0;
+            activity.Party.Size.CurrentSize = 0;
+            activity.Party.Size.MaxSize = 0;
+
             return activity;
         }
 
